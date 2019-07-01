@@ -1,9 +1,9 @@
 <template>
     <div 
-        :class="{ 'user-profile': !anyStyle }"
+        :class="{ 'user-profile': !noStyle }"
         @click="emitClick">
         <img 
-            :class="[{ 'user-profile-picture': !anyStyle }, classes]"
+            :class="[{ 'user-profile-picture': !noStyle }, classes]"
             :style="styles"
             v-if="img && img.trim()" 
             :src="img"
@@ -11,7 +11,7 @@
             :draggable="draggable">
 
         <div 
-            :class="[{ 'user-profile-default': !anyStyle }, classes]"
+            :class="[{ 'user-profile-default': !noStyle }, classes]"
             :style="styles"
             v-else>
             <span>{{ getNameInitials }}</span>
@@ -26,7 +26,7 @@ export default {
         //GENERAL PROPS ------------------------------------------------------
         classes: { type: String, default: null },
         styles: { type: Object, default: null },
-        anyStyle: { type: Boolean, default: false },
+        noStyle: { type: Boolean, default: false },
 
         //NAME PROPS ---------------------------------------------------------
         name: String,
