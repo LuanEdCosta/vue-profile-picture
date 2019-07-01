@@ -1,9 +1,9 @@
 <template>
-    <vue-profile-picture name="demo"></vue-profile-picture>
+    <vue-profile-picture name="Demo"></vue-profile-picture>
 </template>
 
 <script>
-import VueProfilePicture from "@/VueProfilePicture"
+import { VueProfilePicture } from "../index"
 
 export default {
     name: 'demo',

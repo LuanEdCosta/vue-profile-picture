@@ -1,5 +1,5 @@
 {
-  "name": "@luanedcosta/vue-profile-picture",
+  "name": "@luanedcosta/vue-profile-picturee",
   "private": false,
   "version": "0.1.0",
   "description": "Lightweight vue component to render the user picture or his name initials.",
@@ -12,7 +12,8 @@
     "vue image",
     "profile picture",
     "user image",
-    "name initials"
+    "name initials",
+    "avatar"
   ],
   "author": "Luan Eduardo da Costa",
   "license": "MIT",

@@ -1,10 +1,9 @@
-import VueProfilePicture from "@/VueProfilePicture"
+import ProfilePicture from "@/VueProfilePicture"
+
+export const VueProfilePicture = ProfilePicture
 
 export default {
-    VueProfilePicture,
-    
     install(Vue) {
         Vue.component("vue-profile-picture", VueProfilePicture)
     }
 }
-

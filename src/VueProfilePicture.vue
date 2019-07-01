@@ -1,18 +1,18 @@
 <template>
     <div 
-        class="profile-img"
+        :class="{ 'user-profile': !anyStyle }"
         @click="emitClick">
         <img 
-            class="user-profile-img"
-            :class="classes"
+            :class="[{ 'user-profile-picture': !anyStyle }, classes]"
+            :style="styles"
             v-if="img && img.trim()" 
             :src="img"
             :alt="alt"
             :draggable="draggable">
 
         <div 
-            class="profile-default-img"
-            :class="classes"
+            :class="[{ 'user-profile-default': !anyStyle }, classes]"
+            :style="styles"
             v-else>
             <span>{{ getNameInitials }}</span>
         </div>
@@ -25,6 +25,8 @@ export default {
     props: {
         //GENERAL PROPS ------------------------------------------------------
         classes: { type: String, default: null },
+        styles: { type: Object, default: null },
+        anyStyle: { type: Boolean, default: false },
 
         //NAME PROPS ---------------------------------------------------------
         name: String,
@@ -103,14 +105,14 @@ $configs: (
 
 $vpi_image_shadow: -1px 1px 4px 1px black_rgba(.3);
 
-.profile-img{
-    .user-profile-img{
+.user-profile{
+    .user-profile-picture{
         @extend %no-selection;
         @include radius(get_config(vpi_radius));
         @include b-shadow($vpi_image_shadow);
         @include size(get_config(vpi_image_size));
     }
-    .profile-default-img{
+    .user-profile-default{
         @extend %no-selection;
         @include size(get_config(vpi_image_size));
         @include radius(get_config(vpi_radius));
