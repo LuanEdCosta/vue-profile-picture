@@ -1,5 +1,5 @@
 {
-  "name": "@luanedcosta/vue-profile-picturee",
+  "name": "@luanedcosta/vue-profile-picture",
   "private": false,
   "version": "0.2.0",
   "description": "Lightweight vue component to render the user picture or his name initials.",
