@@ -1,0 +1,34 @@
+{
+  "name": "@luanedcosta/vue-profile-picture",
+  "private": false,
+  "version": "0.1.0",
+  "description": "Lightweight vue component to render the user picture or his name initials.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vue serve demo/Demo.vue"
+  },
+  "keywords": [
+    "vue profile",
+    "vue image",
+    "profile picture",
+    "user image",
+    "name initials"
+  ],
+  "author": "Luan Eduardo da Costa",
+  "license": "MIT",
+  "homepage": "https://github.com/LuanEdCosta/vue-profile-picture",
+  "bugs": {
+    "url": "https://github.com/LuanEdCosta/vue-profile-picture/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LuanEdCosta/vue-profile-picture.git"
+  },
+  "dependencies": {
+    "@luanedcosta/sassutility": "^1.3.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0"
+  }
+}
