@@ -1,7 +1,7 @@
 {
   "name": "@luanedcosta/vue-profile-picture",
   "private": false,
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Lightweight vue component to render the user picture or his name initials.",
   "main": "index.js",
   "scripts": {
