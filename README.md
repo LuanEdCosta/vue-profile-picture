@@ -9,7 +9,7 @@
 
 - npm i @luanedcosta/vue-profile-picture
 - yarn add @luanedcosta/vue-profile-picture
-- Or download it from the repository: https://github.com/LuanEdCosta/vue-profile-picture
+- Or download it from the repository: <https://github.com/LuanEdCosta/vue-profile-picture>
 
 **Once installed you can use the component as a plugin:**
 
