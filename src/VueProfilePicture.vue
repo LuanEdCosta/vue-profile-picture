@@ -30,7 +30,7 @@ export default {
 
         //NAME PROPS ---------------------------------------------------------
         name: String,
-        nomOfInitials: { type: Number, default: 2 },
+        numOfInitials: { type: Number, default: 2 },
         nameSeparator: { type: String, default: ' ' },
         transform: { type: Number, default: 1 },
         firstName: { type: Boolean, default: false },
@@ -75,12 +75,12 @@ export default {
             nameArray.forEach(name => {
                 const nameLetterArray = name.split('')
                 if(nameArray.length === 1){ //String contains only one name
-                    const nomOfInitials = name.length < this.nomOfInitials ? name.length : this.nomOfInitials
-                    for (let i = 0; i < nomOfInitials; i++) {
+                    const numOfInitials = name.length < this.numOfInitials ? name.length : this.numOfInitials
+                    for (let i = 0; i < numOfInitials; i++) {
                         initials += nameLetterArray[i]
                     }
                 }else{ //String contains many names
-                    if(initials.length < this.nomOfInitials){
+                    if(initials.length < this.numOfInitials){
                         initials += nameLetterArray[0]
                     }
                 }
