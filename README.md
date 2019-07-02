@@ -52,8 +52,8 @@ noStyle | Boolean | false | false | Remove all default component classes to allo
 numOfInitials | Number | 2 | false | Number of letters that will appear with the user doesn't have image
 nameSeparator | String | white space | false | Character or string that separates each user name
 transform | Number | 1 | false | 1 = Initials uppercase; 2 = Initials lowercase; 0 = Don't transform the text
-first Name | Boolean | false | false | The component will show only the firstname initials
-last Name | Boolean | false | false | The component will show only the lastname initials
+firstName | Boolean | false | false | The component will show only the firstname initials
+lastName | Boolean | false | false | The component will show only the lastname initials
 def | String | '-' | false | If the component didn't find an image neither the user name the component will display this property value on screen
 img | String | null | false | The *src* for the image. The same as the *src* property of the `<img>` tag
 alt | String | null | false | The same as *alt* property of the `<img>` tag
