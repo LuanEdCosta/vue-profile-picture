@@ -44,7 +44,7 @@ If exists an image the component will render a `<img>` tag. If the user doesn't 
 The table below contains all component props.
 
 Property | Type | Default | Required | Explanation
-- | - | - | - | -
+------------ | ------------ | ------------ | ------------ | ------------
 name | String |  | true | Name of the user
 classes | String | null | false | HTML class property for the `<img>` tag or `<div>` with the initials
 styles | Object | null | false | HTML style property for the `<img>` tag or `<div>` with the initials
