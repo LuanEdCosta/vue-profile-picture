@@ -1,4 +1,4 @@
-import ProfilePicture from "@/VueProfilePicture"
+import ProfilePicture from "./src/VueProfilePicture"
 
 export const VueProfilePicture = ProfilePicture
 
