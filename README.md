@@ -58,3 +58,9 @@ def | String | '-' | false | If the component didn't find an image neither the u
 img | String | null | false | The *src* for the image. The same as the *src* property of the `<img>` tag
 alt | String | null | false | The same as *alt* property of the `<img>` tag
 draggable | String | "true" | false | If *true* the image can be draggable
+
+---
+
+## Author
+
+Luan Eduardo da Costa | [Follow me on Linkedin](https://www.linkedin.com/in/luaneducosta/)
